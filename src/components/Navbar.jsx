@@ -3,13 +3,13 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-danger  bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-danger  bg-body-tertiary fw-bolder">
     <div className="container-fluid">
-      <NavLink className="navbar-brand text-info" to="/ ">
+      {/* <NavLink className="navbar-brand text-info" to="/ ">
         Spaghetti World
-      </NavLink>
+      </NavLink> */}
       <button
-        className="navbar-toggler"
+        className="navbar-toggler bg-info"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
@@ -37,8 +37,8 @@ const Navbar = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" to="/about">
-             About
+            <NavLink className="nav-link" to="/loginform">
+            Login
             </NavLink>
           </li>
         

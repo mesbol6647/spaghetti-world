@@ -1,7 +1,7 @@
 import React from "react";
 
 const taxRate = 0.18;
-const shipping = 25;
+const shipping = 0;
 
 const CardTotal = ({products}) => {
   
@@ -23,7 +23,7 @@ const CardTotal = ({products}) => {
           </td>
         </tr>
         <tr className="text-end">
-          <th className="text-start">Shipping</th>
+          <th className="text-start">Free Cargo</th>
           <td>
             $<span className="shipping">{shipping}</span>
           </td>

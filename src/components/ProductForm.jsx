@@ -3,7 +3,7 @@ const ProductForm = ({ formData,handleChange,handleSubmit,text }) => {
   
   return (
     <article id="add-product" className="mb-4 mt-4">
-      <h1 className="text-center">{text} Product</h1>
+      <h1 className="text-center text-">{text} Product</h1>
       <form class="p-2" onSubmit={handleSubmit}>
         <div class="mb-3">
           <label for="add-name" class="form-label">

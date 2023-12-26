@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,5 +9,32 @@
 .app{
     min-height: 100vh;
     background-image: url("../public/spagetti.jpg");
+    color:black;
+    font-family: 'Bree Serif', serif;
    
 }
+/* .image{
+    min-width: 100%;
+    height: 100vh;
+    
+    
+} */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+  }
+
+ 
+  
+  
